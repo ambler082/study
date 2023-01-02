@@ -1,0 +1,81 @@
+.footer {
+  position: absolute;
+  z-index: 100;
+  bottom: 0;
+  width: 100%;
+}
+
+@media (max-width: 700px) {
+  .footer {
+    position: absolute;
+    z-index: 100;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+  }
+}
+
+.footer ul {
+  width: 80%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.footer ul li {
+  margin: 0 1rem;
+  margin-top: 1rem;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.footer ul li a {
+  color: #cec1ce;
+  font-size: 1.2rem;
+}
+
+.footer .block {
+  width: 566px;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+
+
+/* .footer .block {
+  width: 566px;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+} */
+
+.footer .block p {
+  color: #cec1ce;
+  font-size: 11px;
+  word-spacing: 0.3em;
+  font-weight: bolder;
+
+}
+
+.footer .block p a {
+  text-decoration: underline;
+}
+
+
+.footer .block p a:hover {
+  text-decoration: underline;
+  font-style: underline;
+  text-decoration-thickness: 2px;
+}
+
+.footer .block p a:link {
+  color: white;
+}
+
+.footer .block p a:visited {
+  color: white;
+}
